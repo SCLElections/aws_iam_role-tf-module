@@ -15,7 +15,7 @@
 **To be able to use this module, mention the source of your module as:**
 ```
 module "my_iam_role" {
-  source = "git@github.com:SCLElections/SCLElections/aws_iam_role-tf-module"
+  source = "git@github.com:SCLElections/aws_iam_role-tf-module"
 }
 
 ```
@@ -84,7 +84,6 @@ module "iam_role_module_name" {
 * policy_doc_name
 * policy_doc_arn
 * policy_attach_id
-* policy_attach_name
 * iprofile_id
 * iprofile_name
 * iprofile_arn
